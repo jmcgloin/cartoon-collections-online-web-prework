@@ -12,6 +12,6 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.each { |snack| if cheese_types.index(snack) != nil then return  snack }
+  snacks.each { |snack| if cheese_types.index(snack) != nil then return  snack end }
   nil
 end
