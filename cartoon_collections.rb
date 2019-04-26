@@ -13,6 +13,6 @@ end
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each cheese do
-    if snacks.index(cheese) != nil {return cheese}
+    if snacks.index(cheese) != nil then return cheese
   end
 end
